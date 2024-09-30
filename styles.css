@@ -7,6 +7,8 @@ width: 100%;
 background-image: url('bg.jpg');
 width: 33%;
 display: inline-block;
-color: white;
+p {color: white;}
+h2 {color: white;}
+
 }
 
