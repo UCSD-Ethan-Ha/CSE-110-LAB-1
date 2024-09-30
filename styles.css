@@ -1,12 +1,10 @@
 
 #s1{
 background-color: rgb(245,240,230);
-width: 100%;
+
 }
 #s2{
 background-image: url('bg.jpg');
-width: 33%;
-display: inline-block;
 p {color: white;}
 h2 {color: white;}
 
