@@ -35,16 +35,21 @@
 }
 
 }
-
+.imageLogo {
+    width: 400px;
+}
+.image100 {
+    max-width: 100%; 
+}
 
 #s1 {
 background-color: rgb(245,240,230);
-font-size: 28px;
+font-size: 20px;
 display: inline-block;
 padding: 20px;
 align-content: center;
     h1 {
-    font-size: 28px;
+    font-size: 24px;
 
       }
 
@@ -70,6 +75,10 @@ align-content: center;
     padding: 20px;
     align-content: center;
     background-color: rgb(245,240,230);
+    
+    h3{
+          font-size: 28px;
+      }
 }
 
 
@@ -84,9 +93,9 @@ align-content: center;
 .grid1 {
     grid-column: 1;
     overflow: scroll;
-    margin: 0px;
     max-height: 500px;
     background-color: #182b49;
+    align-content: center;
 }
 .grid2 {
     grid-column: 2;
@@ -108,5 +117,130 @@ align-content: center;
 }
 
 
+
+@media (max-width: 800px) {
+    #navbar {
+        position: sticky;
+        top: 0;
+        width: 100%;
+        font-size: 20px;
+        background-color: white;
+        ul{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    color: white;
+    list-style: none;
+
+          }
+
+li {
+    float: left;
+}
+
+    li a {
+        display: none;
+        font-size: 24px;
+        text-decoration: none;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+a:hover {
+    background-color: #182b49;
+    color: white;
+}
+
+}
+
+.imageLogo {
+    max-width: 75%;
+}
+
+.image100 {
+    max-width: 100%;
+}
+
+#s1 {
+    background-color: rgb(245,240,230);
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    align-content: center;
+    h1
+
+{
+    font-size: 24px;
+}
+
+}
+
+#s2 {
+    background-image: url('https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg');
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    align-content: center;
+    h2{
+    font-size: 24px;
+
+      }
+      }
+
+#s3 {
+    font-size: 20px;
+    padding: 20px;
+    align-content: center;
+    background-color: rgb(245,240,230);
+    h3{
+    font-size: 24px;
+
+      }
+      }
+
+
+.grids {
+    display: grid;
+    gap: 25px;
+    font-size: 20px;
+    color: white;
+    align-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid1 {
+    grid-row: 1;
+    grid-column: 1;
+    overflow: scroll;
+    max-height: 500px;
+    background-color: #182b49;
+}
+
+.grid2 {
+    grid-row: 1;
+    grid-column: 2;
+    overflow: scroll;
+    background-color: #182b49;
+    max-height: 500px;
+}
+
+.grid3 {
+    grid-row: 2;
+    grid-column: 1;
+    overflow: scroll;
+    background-color: #182b49;
+    max-height: 500px;
+}
+
+.grid4 {
+    grid-row: 2;
+    grid-column: 2;
+    overflow: scroll;
+    background-color: #182b49;
+    max-height: 500px;
+}
+}
 
 
